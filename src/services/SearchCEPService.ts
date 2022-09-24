@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { IResponseCepData } from '../DTOs/IResponseCEPData'
+import { IResponseCepData } from '../Interfaces/IResponseCEPData'
 import AppError from '../shared/Errors/AppError'
 
 export default class SearchCEPService {
